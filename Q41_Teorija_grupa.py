@@ -77,7 +77,7 @@ NQ = 6 qubit-a po poziciji (DIM = 64), reciklirani registar.
   Bez klasičnog ML-a, bez hibrida.
 
 Okruženje: Python 3.11.13, qiskit 1.4.4, macOS M1, seed = 39.
-CSV = /Users/4c/Desktop/GHQ/data/loto7hh_4602_k32.csv
+CSV = /data/loto7hh_4602_k32.csv
 CSV u celini (S̄ kao info).
 DeprecationWarning / FutureWarning se gase.
 """
@@ -121,7 +121,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4602_k32.csv")
+CSV_PATH = Path("/data/loto7hh_4602_k32.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -391,7 +391,7 @@ REZULTAT Q41 (NEXT kombinacija)
 Suma:  167   (S̄=140.51)
 #odd:  3
 Gaps:  [7, 3, 5, 8, 8, 1]
-Predikcija NEXT: [7, 14, 17, 22, 30, 38, 39]
+Predikcija NEXT: [7, 14, x, y, z, 38, 39]
 """
 
 
